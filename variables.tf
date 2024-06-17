@@ -18,6 +18,15 @@ variable "force_destroy" {
   
 }
 
+}
+
+
+variable "uniform_bucket_level_access" {
+    type = bool
+
+  
+}
+
 variable "age" {
     type = string
   
